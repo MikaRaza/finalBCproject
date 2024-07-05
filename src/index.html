@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DApp de Don en Cryptomonnaie</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        #donations {
+            margin-top: 20px;
+        }
+        .donation {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>App de don en Cryptomonnaie (Ether)</h1>
+    <div>
+        <button onclick="createDonation()">Voulez vous faire un don ?</button>
+        <button onclick="displayDonations()">Afficher les donations</button>
+    </div>
+    <div id="donations"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
